@@ -11,14 +11,18 @@ Gui, +AlwaysOnTop
 Gui, Show, h185 w250, Mingbo's cluster Putty
 onMessage(0x100,"key")  ; key down
 onMessage(0x101,"key")  ; key up
+onMessage(0x104,"key")  ; alt key down
+onMessage(0x105,"key")  ; alt key down
 
 SetTimer, Find , 1000
 SetTitleMatchMode, RegEx 
 
 key(wParam, lParam,msg, hwnd)
 { 
+ 
   GuiControlGet, currentInput, Focus  
   if(currentInput="Edit2"){
+
 	  global id
 	  Loop, %id%
 	  {
