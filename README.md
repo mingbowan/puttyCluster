@@ -7,7 +7,7 @@ Simple AutoHotkey script to enable sending input to multiple putty window simult
 
 <h3>Features:</h3>
 <ol>
-   <li>Send input to multiple putty window simultaneously, missing part in PuTTYCS (PuTTY Command Sender)</li> 
+   <li>Send input to multiple putty windows simultaneously, missing part in PuTTYCS (PuTTY Command Sender)</li> 
    
    <li>support sending special/function keys like "Control-C", "Escape" etc.</li>
    
