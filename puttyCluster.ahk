@@ -6,6 +6,7 @@ Gui, Add, Text, x10, Window transparency:
 GUI, Add, Slider, x10 Range100-255 w200 gFind, 255
 Gui, Add, Text,x10 vignore w100, cluster input:
 Gui, Add, Edit,x10 WantTab ReadOnly, 
+Gui, Add, button, X140 y155 gPaste -default, paste
 Gui, +AlwaysOnTop
 
 Gui, Show, h185 w250, Mingbo's cluster Putty
@@ -38,6 +39,21 @@ return
 
 GuiClose:
 ExitApp
+
+
+Paste:
+global id
+
+	  Loop, %id%
+	  {
+		this_id := id%A_Index%		
+		if(this_id != ""){
+		   WinActivate  , ahk_id %this_id%
+		   SendInput {Raw}%Clipboard%		  
+		}		
+	  } 
+
+return
 
 Locate:  
      Gosub, Find 
