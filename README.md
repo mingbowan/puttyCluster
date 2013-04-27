@@ -16,6 +16,8 @@ Simple AutoHotkey script to enable sending input to multiple putty window simult
    <li>Can locate windows, you can find all your windows even some of them are minimized</li>
 
 --------------------------
+
+
 <h3>Usage:</h3>
 <ol>
    <li>run the executable or the script if you installed autohotkey</li> 
@@ -27,6 +29,8 @@ Simple AutoHotkey script to enable sending input to multiple putty window simult
    <li>if you cannot find all you matched window, click on "locate window(s)", and if you want to see through you window (make them transparent), try the slider</li>
    
    <li> you can also paste whatever in your clipboard to all the matching window by clicking "paste"
+   
+   
 --------------------------
 
 If you only need the fuction, download the exe version (64 bit, i don't have 32 bit Windows, sorry) --- single file no installation needed. it's a green software :) 
