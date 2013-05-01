@@ -6,7 +6,7 @@ Gui, Add, Text, x10, Window transparency:
 GUI, Add, Slider, x10 Range100-255 w200 gFind, 255
 Gui, Add, Text,x10 vignore w100, cluster input:
 Gui, Add, Edit,x10 WantTab ReadOnly, 
-Gui, Add, button, X140 y155 gPaste -default, paste
+;Gui, Add, button, X140 y155 gPaste -default, paste
 Gui, +AlwaysOnTop
 
 Gui, Show, h185 w250, Mingbo's cluster Putty

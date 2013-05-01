@@ -28,7 +28,6 @@ Simple AutoHotkey script to enable sending input to multiple putty window simult
    
    <li>if you cannot find all you matched window, click on "locate window(s)", and if you want to see through you window (make them transparent), try the slider</li>
    
-   <li> you can also paste whatever in your clipboard to all the matching window by clicking "paste"
    
    
 --------------------------
