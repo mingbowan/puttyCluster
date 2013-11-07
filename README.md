@@ -33,5 +33,5 @@ Simple AutoHotkey script to enable sending input to multiple putty window simult
 * to select windows with different pattern, using (pattern1)|(patern2)|.... , for example:  (.*myUser1.*)|(.*host2.*)
 
 ### license
-* free as free beer and free speech
+* free as in free beer and free as in free speech
 * use at your own risk
