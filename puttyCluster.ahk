@@ -1,3 +1,6 @@
+#SingleInstance force
+#NoTrayIcon
+
 Gui, Add, Text,, Windows Title Pattern (RegEx):
 Gui, Add, Edit,  vtitle w200, 
 Gui, Add, Text,, found 0 window(s)
