@@ -19,6 +19,7 @@ Simple AutoHotkey script to enable sending input to multiple putty window simult
 * If you prefer source code (using autohotkey), download puttyCluster.ahk. You need install AutoHotkey (http://www.autohotkey.com/) to run the script.
 
 ### Usage
+(https://raw.github.com/mingbowan/puttyCluster/master/screenshot.PNG)
 * run the executable or the script if you installed autohotkey 
 * at "Windows Title Pattern (RegEx)", input the common pattern for the windows you want cluster input. eg: ec2   -- this will match all windows title contain ec2. and you can tell how many windows matches
 * focus at "cluster input", then hit keyboard, you will find all windows have same input, at same time
