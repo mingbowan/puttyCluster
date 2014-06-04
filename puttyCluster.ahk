@@ -132,7 +132,7 @@ Find:
      {
        this_id := id%A_Index%
 		WinGet, name, ProcessName, ahk_id %this_id%,
-		if(name != "putty.exe"){
+		if(name != "putty.exe" && name != "kitty.exe"){
 		  notPutty++
 		  id%A_Index%=""
 		}
